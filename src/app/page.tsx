@@ -58,7 +58,7 @@ const Page = () => {
     <div className="lg:px-48 px-4">
       <div className="space-y-4 flex flex-col items-start justify-center h-screen">
         <div className="md:text-7xl text-4xl font-bold">
-          Hey , I'm Anandharaj<span className="text-primary">.</span>
+          {`Hey , I'm Anandharaj`}<span className="text-primary">.</span>
         </div>
         <div className="md:text-5xl text-3xl font-bold">
           I am <span className="text-primary">Full Stack developer</span>
@@ -207,7 +207,7 @@ const Page = () => {
       </div>
       <div className="space-y-6 flex flex-col items-center justify-center h-screen">
         <div className="text-7xl flex items-center space-x-4 font-bold">Contact<span className="text-primary">.</span></div>
-        <div className="text-lg md:w-2/3 text-center">Shoot me an email if you want to connect! You can also find me on <span className="text-primary"><Link href="https://www.linkedin.com/in/anandharaj-Link-821029229/" target="_blank" >Linkedin</Link></span> or <span className="text-primary"><Link href="https://wa.me/918925191383" target="_blank">Whatsapp</Link></span> if that's more your speed.</div>
+        <div className="text-lg md:w-2/3 text-center">Shoot me an email if you want to connect! You can also find me on <span className="text-primary"><Link href="https://www.linkedin.com/in/anandharaj-Link-821029229/" target="_blank" >Linkedin</Link></span> or <span className="text-primary"><Link href="https://wa.me/918925191383" target="_blank">Whatsapp</Link></span>{` if that's more your speed.`}</div>
         <Link href="mailto:aaraj232@gmail.com" className="space-x-2 text-lg font-bold flex items-center hover:text-primary" >
           <IconMail className="w-5 h-5" /> <div>aaraj232@gmail.com</div>
         </Link>
