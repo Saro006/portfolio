@@ -22,7 +22,7 @@ function ProjectDialog({ projectdata }: Props) {
                     <img src={projectdata.img} alt='project1' className='w-full h-96' />
                 </div>
                 <div className='w-full space-y-2 p-4'>
-                    <div className="font-bold">
+                    <div className="font-bold text-2xl">
                         {projectdata.name}<span className="text-primary">.</span>
                     </div>
                     <div className='text-primary text-lg font-bold'>{projectdata.tech}</div>
