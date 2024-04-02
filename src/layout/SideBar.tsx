@@ -3,7 +3,7 @@ import React from 'react'
 
 export const SideBar = () => {
     return (
-        <div className='fixed left-0 bg-black w-[60px] text-gray-400 h-full text-lg flex flex-col items-center'>
+        <div className='fixed left-0 bg-black w-[60px] text-gray-400 h-full text-lg flex flex-col items-center z-20'>
             <div className='font-bold text-2xl py-1 px-2 rounded-lg bg-gray-800 my-4'>A<span className='text-primary'>.</span></div>
             <div className=' w-full'>
                 <div>

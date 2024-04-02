@@ -12,7 +12,7 @@ const NavBar = () => {
         setTheme(newTheme);
     }
     return (
-        <nav className="p-2 fixed top-0 backdrop-blur-sm w-full flex justify-between items-center  pl-[60px]">
+        <nav className="p-2 fixed top-0 backdrop-blur-sm w-full flex justify-between items-center  pl-[60px] z-10">
             <div className="flex space-x-4 pl-2">
                 <Link href="https://wa.me/918925191383" target="_blank" >
                     <IconWhatsapp />
