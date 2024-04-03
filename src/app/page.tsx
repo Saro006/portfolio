@@ -1,5 +1,4 @@
 "use client"
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -38,7 +37,7 @@ const Page = () => {
       name: "Archie Home Decors",
       decription: " Developed While exterior design focuses on the outside appearance of buildings or structures, and as such is a part of on-campus or online architecture degree programs, interior design deals with the inside look and feel of those same buildings or structures. application using React.js (frontend) and Node.js (backend). Implemented desgin using tailwind css and twailwind freamwork in shadcn ui its show smoth so using this appliction Implemented React.js to enhance the user interface and improve page loading times.Contributed to a cohesive team effort, seamlesslyintegrating technologies for project success.",
       tech: "Next JS - React JS - Redux - TailwindCss - Javascript",
-      img: '/images/project1.jpg',
+      img: '/images/project1.png',
       projectlink: "https://github.com/Raj-232",
       websitelink: "https://ahd-ui.onrender.com/home"
     },
@@ -46,7 +45,7 @@ const Page = () => {
       name: "BookUsShow",
       decription: " This project aims to build a website using Next.js with TypeScript, RTK Query, and Tailwind CSS. It will display upcoming events and offer personalized recommendations to users. Key features include event listing, recommendations based on user preferences, responsive design, search and filtering options. Development involves integrating APIs, designing UI with Tailwind CSS, and ensuring robust testing and deployment. The goal is to create a modern, user-friendly platform for discovering and engaging with events",
       tech: "Next JS - React JS - Redux - TailwindCss - TypeScript",
-      img: '/images/project1.jpg',
+      img: '/images/project2.png',
       projectlink: "https://github.com/Raj-232/bookusshow.git",
       websitelink: "https://bookusshow.onrender.com/home"
     }
@@ -58,7 +57,7 @@ const Page = () => {
   return (
     <div className="lg:px-48 px-4">
 
-      <div className="space-y-4 flex flex-col items-start justify-center h-screen">
+      <div id="home" className="space-y-4 flex flex-col items-start justify-center h-screen">
         <AnimatedDiv>
           <div className="md:text-7xl text-4xl font-bold">
             {`Hey , I'm Anandharaj`}<span className="text-primary">.</span>
@@ -84,7 +83,7 @@ const Page = () => {
       </div>
 
 
-      <div className="space-y-4 mt-2">
+      <div id="about" className="space-y-4 py-14">
         <AnimatedDiv>
 
           <div className="text-5xl flex items-center space-x-4 font-bold">About
@@ -181,7 +180,7 @@ const Page = () => {
       </div>
 
 
-      <div className="space-y-8 mt-36">
+      <div id="project" className="space-y-8 py-14">
         <AnimatedDiv>
 
           <div className="text-5xl flex items-center space-x-4 font-bold"><Separator />Projects<span className="text-primary">.</span></div>
@@ -206,7 +205,7 @@ const Page = () => {
       </div>
 
 
-      <div className="space-y-12 flex flex-col justify-center mt-36">
+      <div id="exp" className="space-y-12 py-14">
         <AnimatedDiv>
 
           <div className="text-5xl flex items-center space-x-4 font-bold">Experience<span className="text-primary">.</span> <Separator /></div>
@@ -291,7 +290,7 @@ const Page = () => {
       </div>
 
 
-      <div className="space-y-6 flex flex-col items-center justify-center h-screen">
+      <div id="contact" className="space-y-6 flex flex-col items-center justify-center h-screen">
         <AnimatedDiv>
           <div className="text-7xl flex items-center space-x-4 font-bold">Contact
             <span className="text-primary">.</span>

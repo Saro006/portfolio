@@ -1,5 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button";
+import { motion } from 'framer-motion';
 import { useTheme } from "next-themes"
 import { IconGithub, IconLinkDin, IconMail, IconMoonStars, IconPhoneCall, IconSun, IconWhatsapp } from "@/lib/Icons";
 import React from "react";
@@ -12,7 +13,11 @@ const NavBar = () => {
         setTheme(newTheme);
     }
     return (
-        <nav className="p-2 fixed top-0 backdrop-blur-sm w-full flex justify-between items-center  pl-[60px] z-10">
+        <motion.div
+        initial={{ opacity: 0, y: -50 }} 
+        animate={{ opacity: 1, y: 0 }}  
+        exit={{ opacity: 0, y: -50 }}   
+        transition={{ duration: 0.5 }}    className="p-2 fixed top-0 backdrop-blur-sm w-full flex justify-between items-center  pl-[60px] z-10">
             <div className="flex space-x-4 pl-2">
                 <Link href="https://wa.me/918925191383" target="_blank" >
                     <IconWhatsapp />
@@ -35,7 +40,7 @@ const NavBar = () => {
                 <IconMoonStars className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
                 <span className="sr-only">Toggle theme</span>
             </Button>
-        </nav>
+        </motion.div>
     );
 };
 
