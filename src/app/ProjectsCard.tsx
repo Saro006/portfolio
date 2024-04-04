@@ -23,9 +23,9 @@ export const ProjectsCard = (
         projectlink,
         websitelink }: ProjectData) => {
     return (
-        <Card className='shadow-2xl dark:border-none'>
+        <Card className='dark:border-none'>
             <div className='p-4 cursor-pointer' onClick={()=>handleOpen(index)}>
-                <img src={img} alt='project1' className='rounded-xl shadow-2xl hover:rotate-6 hover:scale-[1.05]  transition-transform duration-300 ease-in-out' />
+                <img src={img} alt='project1' className=' shadow-2xl hover:rotate-6 hover:scale-[1.05]  transition-transform duration-300 ease-in-out' />
             </div>
             <div className='w-full h-full bg-background space-y-2 p-4'>
                 <div className="flex w-full  text-xl items-center space-x-4 font-bold">
@@ -40,7 +40,7 @@ export const ProjectsCard = (
                 </div>
                 <div className='text-primary text-lg font-bold'>{tech}</div>
                 <div className='text-lg'>
-                    {decription.split(" ").slice(0, 29).join(" ")} <span onClick={()=>handleOpen(index)} className='cursor-pointer text-primary font-bold hover:underline'> Learn More {">"}</span>
+                    {decription.split(" ").slice(0, 27).join(" ")} <span onClick={()=>handleOpen(index)} className='cursor-pointer text-primary font-bold hover:underline'> Learn More {">"}</span>
                 </div>
             </div>
         </Card>
