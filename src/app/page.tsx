@@ -55,7 +55,7 @@ const Page = () => {
       tech: "React JS",
       img: '/images/project3.png',
       projectlink: "https://github.com/Raj-232",
-      websitelink: "https://devraviportfolio.netlify.app/"
+      websitelink: "https://noteyourtasks.netlify.app/"
     }
   ]
   const handleOpen = (index: number) => {
@@ -252,9 +252,12 @@ const Page = () => {
               <Badge>Next JS</Badge>
               <Badge>Nest Js</Badge>
               <Badge>TypeScript</Badge>
+              <Badge>Mui</Badge>
               <Badge>Tailwind Css</Badge>
               <Badge>MangoDb</Badge>
               <Badge>Sql</Badge>
+              <Badge>REST APIs</Badge>
+              <Badge>Web Socket</Badge>
             </div>
           </AnimatedDiv>
         </div>
