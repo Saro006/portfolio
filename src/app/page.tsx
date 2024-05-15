@@ -48,6 +48,14 @@ const Page = () => {
       img: '/images/project2.png',
       projectlink: "https://github.com/Raj-232/bookusshow.git",
       websitelink: "https://bookusshow.onrender.com/home"
+    },
+    {
+      name: "Note Your Tasks",
+      decription: " Note Your Tasks is a dynamic project developed using React.js, designed to streamline task management. Users can effortlessly add tasks to the list, each with a unique description. The interface allows users to mark tasks as completed with a simple click, facilitating efficient tracking of progress. Additionally, users have the flexibility to delete tasks when they are no longer relevant. The project employs React.js to ensure a responsive and intuitive user experience, enhancing productivity and organization. With its user-friendly interface and robust functionality, Note Your Tasks exemplifies the power of React.js in modern web development and stands as a testament to effective task management solutions.",
+      tech: "React JS",
+      img: '/images/project3.png',
+      projectlink: "https://github.com/Raj-232",
+      websitelink: "https://devraviportfolio.netlify.app/"
     }
   ]
   const handleOpen = (index: number) => {
