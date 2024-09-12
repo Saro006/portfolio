@@ -19,19 +19,19 @@ const NavBar = () => {
         exit={{ opacity: 0, y: -50 }}   
         transition={{ duration: 0.5 }}    className="p-2 fixed top-0 backdrop-blur-sm w-full flex justify-between items-center  pl-[60px] z-10">
             <div className="flex space-x-4 pl-2">
-                <Link href="https://wa.me/918925191383" target="_blank" >
+                <Link href="https://wa.me/919498361521" target="_blank" >
                     <IconWhatsapp />
                 </Link>
                 <Link href="https://github.com/Raj-232" target="_blank" >
                     <IconGithub />
                 </Link>
-                <Link href="mailto:aaraj232@gmail.com" >
+                <Link href="mailto:saravanakumarsk8056@gmail.com" >
                     <IconMail />
                 </Link>
-                <Link href="tel:+918925191383" >
+                <Link href="tel:+919498361521" >
                     <IconPhoneCall />
                 </Link>
-                <Link href="https://www.linkedin.com/in/anandharaj-Link-821029229/" target="_blank" >
+                <Link href="https://www.linkedin.com/in/saravana-kumar-u-a077b7280/" target="_blank" >
                     <IconLinkDin />
                 </Link>
             </div>

@@ -24,7 +24,7 @@ const Page = () => {
     // Create a temporary anchor element
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'Anandharaj_Resume.pdf';
+    link.download = 'Saravanakumar_Resume.pdf';
     // Trigger the click event on the anchor element
     document.body.appendChild(link);
     link.click();
@@ -68,7 +68,7 @@ const Page = () => {
       <div id="home" className="space-y-4 flex flex-col items-start justify-center h-screen">
         <AnimatedDiv>
           <div className="md:text-7xl text-4xl font-bold">
-            {`Hey , I'm Anandharaj`}<span className="text-primary">.</span>
+            {`Hey , I'm Saravanakumar,`}
           </div>
         </AnimatedDiv>
         <AnimatedDiv>
@@ -79,7 +79,7 @@ const Page = () => {
         <AnimatedDiv>
 
           <div className="text-lg">
-            Experienced software developer proficient in React and Node.js.
+            Experienced software developer proficient in React and Python and data processing.
             Skilled in creating scalable web applications with a focus on high-quality code.
             Strong in both front-end and back-end development, with a collaborative mindset
           </div>
@@ -103,19 +103,13 @@ const Page = () => {
           <div className="capitalize space-y-4 text-lg md:col-span-2">
             <AnimatedDiv>
               <div>
-                Anandharaj is a seasoned software developer proficient in React and Node.js, adept at building scalable web applications with a focus on top-notch code quality.
+                Saravanakumar is a seasoned software developer proficient in React and python, adept at building scalable web applications with a focus on top-notch code quality.
               </div>
             </AnimatedDiv>
             <AnimatedDiv>
 
               <div>
-                With a comprehensive skill set spanning front-end and back-end development, Anandharaj is passionate about creating intuitive user interfaces and contributing to cutting-edge projects.
-              </div>
-            </AnimatedDiv>
-            <AnimatedDiv>
-
-              <div>
-                His recent roles include developing a performance testing application at Icanio Technologies and spearheading the creation of a Green Cover Enhancement Web App at Forge Innovation & Ventures.
+                With a comprehensive skill set spanning front-end and back-end development, sarais passionate about creating intuitive user interfaces and contributing to cutting-edge projects.
               </div>
             </AnimatedDiv>
             <AnimatedDiv>
@@ -141,7 +135,7 @@ const Page = () => {
                 <Link href="tel:+918925191383" >
                   <IconPhoneCall className="w-5 h-5" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/anandharaj-Link-821029229/" target="_blank" >
+                <Link href="https://www.linkedin.com/in/saravana-kumar-u-a077b7280/" target="_blank" >
                   <IconLinkDin className="w-5 h-5" />
                 </Link>
               </div>
@@ -156,14 +150,20 @@ const Page = () => {
             <AnimatedDiv>
               <div className="flex-wrap space-x-2  space-y-2">
                 <Badge>Javascript</Badge>
-                <Badge>TypeScript</Badge>
                 <Badge>HTML</Badge>
                 <Badge>React</Badge>
-                <Badge>Redux</Badge>
-                <Badge>Node Js</Badge>
-                <Badge>Express</Badge>
+                <Badge>Python</Badge>
+                <Badge>Fast api</Badge>
+                <Badge>Spring boot</Badge>
+                <Badge>Apache kafka</Badge>
+                <Badge>Apache iceberg</Badge>
+                <Badge>Apache spark</Badge>
+                <Badge>Trino</Badge>
+                <Badge>S3 minio</Badge>
+                <Badge>Java</Badge>
                 <Badge>Postgres</Badge>
                 <Badge>MongoDB</Badge>
+                <Badge>My Sql</Badge>
                 <Badge>GitHub</Badge>
               </div>
             </AnimatedDiv>
@@ -176,10 +176,7 @@ const Page = () => {
               <div className="flex-wrap space-x-2 space-y-2">
                 <Badge>Tailwind</Badge>
                 <Badge>Python</Badge>
-                <Badge>Blender</Badge>
                 <Badge>Java</Badge>
-                <Badge>Unity</Badge>
-                <Badge>PhotoShop</Badge>
               </div>
             </AnimatedDiv>
           </div>
@@ -223,7 +220,7 @@ const Page = () => {
             <AnimatedDiv>
 
               <div className="font-bold space-y-2 text-lg" >
-                <div>Icanio Technologies</div>
+                <div>Gway erp Technologies</div>
                 <div className="text-primary">Software Development Engineer Intern</div>
               </div>
             </AnimatedDiv>
@@ -239,7 +236,7 @@ const Page = () => {
 
             <div>
               Developed user interfaces and components using React.js, ensuring responsiveness and a seamless user experience across different devices and browsers.
-              Contributed to backend development by building RESTful APIs, handling authentication, and optimizing database operations using Node.js, MongoDB, and SQL.
+              Contributed to backend development by building RESTful APIs, handling authentication, and optimizing database operations using python, MongoDB, and SQL.
               Worked closely with designers and backend developers to integrate frontend components with backend services, fostering effective collaboration and achieving project goals.
               Actively participated in code reviews, team meetings, and adopted agile methodologies, gaining valuable insights into software development best practices and enhancing my skills as a developer.
             </div>
@@ -248,11 +245,6 @@ const Page = () => {
 
             <div className="flex-wrap space-x-2 space-y-2">
               <Badge>React Js</Badge>
-              <Badge>Node Js</Badge>
-              <Badge>Next JS</Badge>
-              <Badge>Nest Js</Badge>
-              <Badge>TypeScript</Badge>
-              <Badge>Mui</Badge>
               <Badge>Tailwind Css</Badge>
               <Badge>MangoDb</Badge>
               <Badge>Sql</Badge>
@@ -290,11 +282,9 @@ const Page = () => {
           <AnimatedDiv>
 
             <div className="flex-wrap space-x-2 space-y-2">
-              <Badge>arduino</Badge>
-              <Badge>IoT</Badge>
               <Badge>php</Badge>
               <Badge>Sql</Badge>
-              <Badge>Inovation</Badge>
+              <Badge>Innovation</Badge>
             </div>
           </AnimatedDiv>
         </div>
@@ -310,14 +300,14 @@ const Page = () => {
         <div className="text-lg md:w-2/3 text-center">
           <AnimatedDiv>
             <div>
-              Shoot me an email if you want to connect! You can also find me on <span className="text-primary"><Link href="https://www.linkedin.com/in/anandharaj-Link-821029229/" target="_blank" >Linkedin</Link></span> or <span className="text-primary"><Link href="https://wa.me/918925191383" target="_blank">Whatsapp</Link></span>{` if that's more your speed.`}
+              Shoot me an email if you want to connect! You can also find me on <span className="text-primary"><Link href="https://www.linkedin.com/in/saravana-kumar-u-a077b7280/" target="_blank" >Linkedin</Link></span> or <span className="text-primary"><Link href="https://wa.me/919498361521" target="_blank">Whatsapp</Link></span>{` if that's more your speed.`}
             </div>
           </AnimatedDiv>
         </div>
 
         <AnimatedDiv>
-          <Link href="mailto:aaraj232@gmail.com" className="space-x-2 text-lg font-bold flex items-center hover:text-primary" >
-            <IconMail className="w-5 h-5" /> <div>aaraj232@gmail.com</div>
+          <Link href="mailto:saravanakumarsk8056@gmail.com" className="space-x-2 text-lg font-bold flex items-center hover:text-primary" >
+            <IconMail className="w-5 h-5" /> <div>saravanakumarsk8056@gmail.com</div>
           </Link>
         </AnimatedDiv>
       </div>
