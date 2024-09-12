@@ -79,7 +79,7 @@
   border-radius: 2cm;
 }
 ::-webkit-scrollbar-track {
-  background: hsl(156, 91%, 48%); 
+  background: hsl(336, 100%, 50%); 
 }
 ::-webkit-scrollbar-thumb {
   background: #888; 
@@ -95,6 +95,6 @@
 
 
 ::selection{
-  background: hsl(156, 91%, 48%);
+  background: hsl(336, 100%, 50%);
   color: white;
 }
