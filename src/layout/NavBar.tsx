@@ -22,7 +22,7 @@ const NavBar = () => {
                 <Link href="https://wa.me/919498361521" target="_blank" >
                     <IconWhatsapp />
                 </Link>
-                <Link href="https://github.com/Raj-232" target="_blank" >
+                <Link href="https://github.com/Saro006" target="_blank" >
                     <IconGithub />
                 </Link>
                 <Link href="mailto:saravanakumarsk8056@gmail.com" >
