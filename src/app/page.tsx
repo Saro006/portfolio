@@ -23,7 +23,7 @@ const Page = () => {
   const handleDownload = () => {
     // Create a temporary anchor element
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = '/saravanakumar_new.pdf';
     link.download = 'Saravanakumar_Resume.pdf';
     // Trigger the click event on the anchor element
     document.body.appendChild(link);

@@ -28,7 +28,7 @@ const NavBar = () => {
                 <Link href="mailto:saravanakumarsk8056@gmail.com" >
                     <IconMail />
                 </Link>
-                <Link href="tel:+919498361521" >F
+                <Link href="tel:+919498361521">
                     <IconPhoneCall />
                 </Link>
                 <Link href="https://www.linkedin.com/in/saravana-kumar-u-a077b7280/" target="_blank" >
