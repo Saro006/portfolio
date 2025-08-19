@@ -38,7 +38,7 @@ const Page = () => {
       decription: " Developed While exterior design focuses on the outside appearance of buildings or structures, and as such is a part of on-campus or online architecture degree programs, interior design deals with the inside look and feel of those same buildings or structures. application using React.js (frontend) and Node.js (backend). Implemented desgin using tailwind css and twailwind freamwork in shadcn ui its show smoth so using this appliction Implemented React.js to enhance the user interface and improve page loading times.Contributed to a cohesive team effort, seamlesslyintegrating technologies for project success.",
       tech: "Next JS - React JS - Redux - TailwindCss - Javascript",
       img: '/images/project1.png',
-      projectlink: "https://github.com/Raj-232",
+      projectlink: "https://github.com/Saro006",
       websitelink: "https://ahd-ui.onrender.com/home"
     },
     {
@@ -46,7 +46,7 @@ const Page = () => {
       decription: " This project aims to build a website using Next.js with TypeScript, RTK Query, and Tailwind CSS. It will display upcoming events and offer personalized recommendations to users. Key features include event listing, recommendations based on user preferences, responsive design, search and filtering options. Development involves integrating APIs, designing UI with Tailwind CSS, and ensuring robust testing and deployment. The goal is to create a modern, user-friendly platform for discovering and engaging with events",
       tech: "Next JS - React JS - Redux - TailwindCss - TypeScript",
       img: '/images/project2.png',
-      projectlink: "https://github.com/Raj-232/bookusshow.git",
+      projectlink: "https://github.com/Saro006/bookusshow.git",
       websitelink: "https://bookusshow.onrender.com/home"
     },
     {
@@ -54,7 +54,7 @@ const Page = () => {
       decription: " Note Your Tasks is a dynamic project developed using React.js, designed to streamline task management. Users can effortlessly add tasks to the list, each with a unique description. The interface allows users to mark tasks as completed with a simple click, facilitating efficient tracking of progress. Additionally, users have the flexibility to delete tasks when they are no longer relevant. The project employs React.js to ensure a responsive and intuitive user experience, enhancing productivity and organization. With its user-friendly interface and robust functionality, Note Your Tasks exemplifies the power of React.js in modern web development and stands as a testament to effective task management solutions.",
       tech: "React JS",
       img: '/images/project3.png',
-      projectlink: "https://github.com/Raj-232",
+      projectlink: "https://github.com/Saro006",
       websitelink: "https://noteyourtasks.netlify.app/"
     }
   ]
@@ -126,7 +126,7 @@ const Page = () => {
                 <Link href="https://wa.me/918925191383" target="_blank" >
                   <IconWhatsapp className="w-5 h-5" />
                 </Link>
-                <Link href="https://github.com/Raj-232" target="_blank" >
+                <Link href="https://github.com/Saro006" target="_blank" >
                   <IconGithub className="w-5 h-5" />
                 </Link>
                 <Link href="mailto:aaraj232@gmail.com" >
