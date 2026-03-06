@@ -23,7 +23,7 @@ const Page = () => {
   const handleDownload = () => {
     // Create a temporary anchor element
     const link = document.createElement('a');
-    link.href = '/saravanakumar_new.pdf';
+    link.href = '/Saravanakumar_Profile_2025.pdf';
     link.download = 'Saravanakumar_Resume.pdf';
     // Trigger the click event on the anchor element
     document.body.appendChild(link);
@@ -78,11 +78,12 @@ const Page = () => {
         </AnimatedDiv>
         <AnimatedDiv>
 
-          <div className="text-lg">
-            Experienced software developer proficient in React and Python and data processing.
-            Skilled in creating scalable web applications with a focus on high-quality code.
-            Strong in both front-end and back-end development, with a collaborative mindset
-          </div>
+         <div className="text-lg">
+  Full Stack Developer specializing in React.js and Python (FastAPI), building
+  scalable web applications, microservices, and data platforms. Experienced in
+  cloud-native technologies, real-time data processing, and creating reliable,
+  high-performance systems.
+</div>
         </AnimatedDiv>
 
         <AnimatedDiv>
@@ -103,20 +104,18 @@ const Page = () => {
           <div className="capitalize space-y-4 text-lg md:col-span-2">
             <AnimatedDiv>
               <div>
-                Saravanakumar is a seasoned software developer proficient in React and python, adept at building scalable web applications with a focus on top-notch code quality.
+                I’m Saravanakumar U, a Full Stack Software Developer with experience in building scalable web applications and data platforms. I specialize in Python (FastAPI), React.js, and modern cloud-native technologies.
               </div>
             </AnimatedDiv>
             <AnimatedDiv>
 
               <div>
-                With a comprehensive skill set spanning front-end and back-end development, sarais passionate about creating intuitive user interfaces and contributing to cutting-edge projects.
-              </div>
+Currently, I work on building observability platforms, data mesh architectures, and real-time analytics systems, integrating technologies such as Kafka, Trino, Iceberg, and MinIO. I also work with Docker, Kubernetes, and OpenShift to deploy scalable microservices.              </div>
             </AnimatedDiv>
             <AnimatedDiv>
 
               <div>
-                i am collaborative mindset and dedication to innovation make him an invaluable asset in any software development team, consistently striving for excellence in his work.
-              </div>
+I enjoy working across the entire stack — designing responsive frontend interfaces, building robust backend APIs, and developing distributed data systems that handle large-scale workloads.              </div>
             </AnimatedDiv>
             <AnimatedDiv>
 
@@ -220,7 +219,7 @@ const Page = () => {
             <AnimatedDiv>
 
               <div className="font-bold space-y-2 text-lg" >
-                <div>Gway erp Technologies</div>
+                <div>icanio technologies</div>
                 <div className="text-primary">Software Development Engineer Intern</div>
               </div>
             </AnimatedDiv>
@@ -258,34 +257,68 @@ const Page = () => {
             <AnimatedDiv>
 
               <div className="font-bold space-y-2 text-lg" >
-                <div>Forge Innovation & Ventures</div>
-                <div className="text-primary">Graduate Innovation Engineer Trainee</div>
+                <div>zaga open source pvt ltd </div>
+                <div className="text-primary">Full Stack Developer</div>
               </div>
             </AnimatedDiv>
             <AnimatedDiv>
 
               <div className="text-right space-y-2">
-                <div>02/2023 - 06/2023</div>
-                <div>Tirunelveli</div>
+                <div>04/2024 - 12/2025</div>
+                <div>kovilpatti</div>
               </div>
             </AnimatedDiv>
           </div>
           <AnimatedDiv>
 
-            <div>
-              Applied academic IoT knowledge: Used theoretical learning in practical scenarios, particularly in IoT applications.
-              Led innovation projects: Took charge of projects to solve problems with IoT solutions, actively contributing to problem-solving efforts.
-              Gained hands-on IoT experience: Implemented IoT solutions in various sectors, like smart buildings and healthcare, learning about IoT systems firsthand.
-              Developed professionally: Collaborated with mentors, enhancing technical and soft skills vital for professional growth and learning in a real-world setting.
-            </div>
+            <div className="space-y-3 text-gray-300 leading-relaxed">
+
+<p>⚡ Designed and implemented scalable <b>Data Mesh architecture</b> using OpenTelemetry, Kafka, Hive, Iceberg, MinIO, Trino, and Redis for efficient large-scale data processing.</p>
+
+<p>📊 Built a <b>real-time observability platform</b> integrating tracing, logging, and metrics to monitor system health and distributed microservices performance.</p>
+
+<p>🚀 Developed high-performance <b>FastAPI backend services</b> for data ingestion and seamless communication between microservices.</p>
+
+<p>💻 Engineered modern <b>React.js dashboards</b> to visualize infrastructure metrics, analytics, and system performance in real time.</p>
+
+<p>🔐 Implemented <b>Role-Based Access Control (RBAC)</b> using Trino and Iceberg to manage secure and structured data access policies.</p>
+
+<p>🐳 Managed <b>cloud-native deployments</b> using Docker, Kubernetes, Helm, and OpenShift to ensure scalable and reliable production systems.</p>
+
+<p>⚙️ Built <b>real-time data analytics pipelines</b> using Kafka and Trino to enable fast querying and operational insights.</p>
+
+<p>🤖 Applied <b>AI-based anomaly detection</b> using Isolation Forest and Hugging Face models to identify abnormal system behavior.</p>
+
+</div>
           </AnimatedDiv>
           <AnimatedDiv>
 
-            <div className="flex-wrap space-x-2 space-y-2">
-              <Badge>php</Badge>
-              <Badge>Sql</Badge>
-              <Badge>Innovation</Badge>
-            </div>
+           <div className="flex flex-wrap gap-2">
+  <Badge>Python</Badge>
+  <Badge>FastAPI</Badge>
+  <Badge>JavaScript</Badge>
+  <Badge>TypeScript</Badge>
+  <Badge>React.js</Badge>
+  <Badge>Next.js</Badge>
+  <Badge>Node.js</Badge>
+  <Badge>NestJS</Badge>
+  <Badge>MongoDB</Badge>
+  <Badge>PostgreSQL</Badge>
+  <Badge>Redis</Badge>
+  <Badge>Kafka</Badge>
+  <Badge>Apache Spark</Badge>
+  <Badge>Apache Iceberg</Badge>
+  <Badge>Trino</Badge>
+  <Badge>Docker</Badge>
+  <Badge>Kubernetes</Badge>
+  <Badge>Helm</Badge>
+  <Badge>OpenShift</Badge>
+  <Badge>MinIO</Badge>
+  <Badge>Prometheus</Badge>
+  <Badge>Grafana</Badge>
+  <Badge>OpenTelemetry</Badge>
+  <Badge>GitHub Actions</Badge>
+</div>
           </AnimatedDiv>
         </div>
       </div>
